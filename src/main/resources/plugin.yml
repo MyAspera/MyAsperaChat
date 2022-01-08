@@ -1,0 +1,5 @@
+name: MAChat
+author: 'MyAspera.pl Team'
+version: '${project.version}'
+description: '${project.description}'
+main: pl.myaspera.chat.ChatPlugin
