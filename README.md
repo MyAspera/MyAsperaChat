@@ -5,7 +5,7 @@
 <br><br>
 #### Pobierz: [MAChat](https://github.com/MyAspera/MyAsperaChat/releases) <br>
 **Uprawnienia:**
-<br>_machat.nofityupdate_ - Informacja o nowej wersji pluginu po wejściu na serwer
+<br>_machat.notifyupdate_ - Informacja o nowej wersji pluginu po wejściu na serwer
 <br>_machat.nocooldown_- Gracz z tym uprawnieniem może pisać na czacie bez ograniczenia czasowego
 <br>_machat.nochatoff_ - Gracz z tym uprawnieniem może pisać na czacie gdy jest wyłączony
 <br>_machat.chat.command_ - Dostęp do komendy /chat
