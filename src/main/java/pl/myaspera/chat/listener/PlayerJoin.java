@@ -20,7 +20,7 @@ public class PlayerJoin implements Listener {
     @EventHandler(priority = EventPriority.LOWEST)
     public void onJoin(final PlayerJoinEvent event) {
         Player player = event.getPlayer();
-        if(player.hasPermission("machat.nofityupdate")) {
+        if(player.hasPermission("machat.notifyupdate")) {
             if(this.plugin.isNewPluginUpdate()) {
                 ChatUtil.sendMessage(player, "&8[&3MAChat&8] &cDostępna jest nowa wersja pluginu!");
                 ChatUtil.sendURLMessage(player, "&8[&3MAChat&8] &aKliknij na wiadomość aby pobrać najnowszą wersję z githuba", "https://github.com/MyAspera/MyAsperaChat");

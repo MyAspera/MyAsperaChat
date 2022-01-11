@@ -12,7 +12,7 @@ import pl.myaspera.chat.util.TimeUtil;
 @Header("Github: https://github.com/MyAspera/MyAsperaChat")
 @Header("")
 @Header("Uprawnienia:")
-@Header("machat.nofityupdate - Informacja o nowej wersji pluginu po wejściu na serwer")
+@Header("machat.notifyupdate - Informacja o nowej wersji pluginu po wejściu na serwer")
 @Header("machat.nocooldown- Gracz z tym uprawnieniem może pisać na czacie bez ograniczenia czasowego")
 @Header("machat.nochatoff- Gracz z tym uprawnieniem może pisać na czacie gdy jest wyłączony")
 @Header("machat.chat.command - Dostęp do komendy /chat")
