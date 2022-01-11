@@ -19,8 +19,9 @@ public final class PlayerChat implements Listener {
     }
     private final ChatPlugin plugin;
 
-    @EventHandler(priority = EventPriority.LOWEST)
+    @EventHandler(priority = EventPriority.HIGHEST)
     public void onPlayerChat(final AsyncPlayerChatEvent event) {
+        if(event.isCancelled()) return;
         Player player = event.getPlayer();
         User user = this.plugin.getUserData().getOrCreate(player);
 

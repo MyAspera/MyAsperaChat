@@ -7,7 +7,7 @@
     <groupId>pl.myaspera</groupId>
     <artifactId>chat</artifactId>
     <name>MAChat</name>
-    <version>1.0</version>
+    <version>1.1</version>
     <description>Plugin na zarządzanie czatem autorstwa MyAspera.pl. Darmowe pluginy na stronie: https://myaspera.pl</description>
 
     <properties>
